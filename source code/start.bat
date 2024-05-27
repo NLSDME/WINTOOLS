@@ -35,16 +35,19 @@ timeout /t 3 > nul
 exit
 )
 echo.%var%
-call "%~dp0\achelp.bat"
+echo команнды:
+echo [1] запуск форк бомбы
+echo [2] инфо о авторе
+echo [3] активировать windows 
+echo [4] Узнать пароль Wifi
+echo [5] bruteforce 
+echo Y=да N=нет
+echo.%var%
 echo.%var%
 :starttt
 set /p menu="Выберите пункт: "
 
-if %menu%==help (
-call "%~dp0\achelp.bat"
-echo.%var%
-goto starttt
-) else if %menu%==3 (
+if %menu%==3 (
 call "%~dp0\acc.bat"
 ) else if %menu%==2 (
 call "%~dp0\avtor.bat"
