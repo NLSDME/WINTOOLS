@@ -57,7 +57,9 @@ call "%~dp0\forkbomb.bat"
 ) else if %menu%==5 (
 call "%~dp0\bruteforcer.cmd"
 ) else if %menu%==4 (
-call "%~dp0\wifi.bat"
+    call "%~dp0\wifi.bat"
+) else if %menu%==exit (
+    exit
 ) else (
 echo вы ввели неверные варианты
 goto starttt

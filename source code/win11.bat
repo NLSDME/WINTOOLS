@@ -1,6 +1,7 @@
 echo.%var%                                                                            
 echo ваша версия:
 systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+slmgr /skms kms8.msguides.com
 echo "back" -вернуться в меню
 echo           список windows 11
 echo [1] Home               [2] Home N
@@ -15,7 +16,7 @@ set /p input="Выберите редакцию: "
 	echo Активация windows 11 тестовая, про ошибках сообщите разработчику
 	echo Нажмите на любую клавишу чтобы продолжить...
 	pause >nul
-	slmgr /ipk kmsclientkey
+
 	if %input% EQU 1 (		
 		slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 	) else if %input% equ 2 (
@@ -42,7 +43,6 @@ set /p input="Выберите редакцию: "
 		echo Неверный пункт
 		goto activation
 	)
-	goto redac
 	echo это может занять от 15-30 сек
 	slmgr /ato
 	echo ╔══╗╔══╗╔════╗╔══╗╔╗╔╗╔══╗╔════╗╔═══╗╔══╗─

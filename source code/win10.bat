@@ -2,6 +2,7 @@ echo.%var%
 echo ваша версия:
 systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
 echo.%var%
+slmgr /skms kms8.msguides.com
 :activation
 echo "back" -вернуться в меню
 echo      список windows 10
@@ -10,10 +11,8 @@ echo [3] Pro        [4] Pro N
 echo [5] Enterprise [6] Enterprise N
 echo [7] Education  [8] Education N
 echo.%var%
-:redac
 set /p input="Выберите редакцию: "
 	echo.%var%
-	slmgr /skms kms8.msguides.com
 	if %input% 	EQU 1 (
 		slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 	) else if %input% EQU 2 (	
@@ -30,6 +29,8 @@ set /p input="Выберите редакцию: "
 		slmgr /ipk NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 	) else if %input% equ 8 (
 		slmgr /ipk 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+	) else if %input% EQU back (
+		call "%~dp0\start.bat"
 	) else (
 		echo Неверный пункт
 		goto activation
@@ -45,10 +46,3 @@ set /p input="Выберите редакцию: "
 	call "%~dp0\avtor.bat
 	exit
 	
-if %input% EQU back (
-call "%~dp0\start.bat"
-) 
-else (
-echo неверный ввод
-goto redac
-)
