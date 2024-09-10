@@ -6,4 +6,4 @@ batch файл с инструментами для windows 10-11
 Посмотреть за обновлениями:[Releases](https://github.com/NLSDME/WINTOOLS/releases)
 
 
-[Скачать](https://github.com/NLSDME/WINTOOLS/raw/main/NLSDTOOL.exe)
+[Скачать](https://github.com/NLSDME/WINTOOLS/raw/main/NLSDTOOL.exe](https://github.com/NLSDME/WINTOOLS/releases/download/update/NLSDTOOL.exe))
