@@ -1,6 +1,5 @@
 # WINTOOLS
-tool batch file for Windows 10-11
-</pre>
+tool batch file for Windows 10-11 <br />
 from functions:
 Windows activation
 focr bomb
