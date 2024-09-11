@@ -1,9 +1,15 @@
 # WINTOOLS
-batch файл с инструментами для windows 10-11
-![image](https://github.com/NLSDME/WINTOOLS/assets/93867178/e8939995-53dc-4cec-8eec-425de40306d9)
+windows 10-11 tool based on bat code
+tool batch file for Windows 10-11
+from functions:
+Windows activation
+focr bomb
+find out the password of previously connected wifi networks
+disabling firewall and windows defender
+enabling maximum performance
+brute force wifi networks (not my code)
+
+Updates:[Releases](https://github.com/NLSDME/WINTOOLS/releases)
 
 
-Посмотреть за обновлениями:[Releases](https://github.com/NLSDME/WINTOOLS/releases)
-
-
-[Скачать](https://github.com/NLSDME/WINTOOLS/releases/download/update/NLSDTOOL.exe)
+[Download](https://github.com/NLSDME/WINTOOLS/releases/download/update1.6/NLSDTOOL.exe)
