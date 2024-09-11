@@ -1,12 +1,12 @@
 # WINTOOLS
 tool batch file for Windows 10-11 <br />
-from functions:
-Windows activation
-focr bomb
-find out the password of previously connected wifi networks
-disabling firewall and windows defender
-enabling maximum performance
-brute force wifi networks (not my code)
+from functions: <br />
+1. Windows activation
+2. fork bomb
+3. find out the password of previously connected wifi networks
+4. disabling firewall and windows defender
+5. enabling maximum performance
+6. brute force wifi networks (not my code)
 
 Updates:[Releases](https://github.com/NLSDME/WINTOOLS/releases)
 
