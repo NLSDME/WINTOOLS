@@ -7,7 +7,7 @@ from functions: <br />
 4. disabling firewall and windows defender
 5. enabling maximum performance
 6. brute force wifi networks (not my code)
-![image](https://github.com/user-attachments/assets/37b190ce-c64c-48d9-93ce-1044c7a89303)
+![image](https://github.com/user-attachments/assets/37b190ce-c64c-48d9-93ce-1044c7a89303)<br />
 Updates:[Releases](https://github.com/NLSDME/WINTOOLS/releases)
 
 
