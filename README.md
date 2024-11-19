@@ -11,4 +11,4 @@ from functions: <br />
 Updates:[Releases](https://github.com/NLSDME/WINTOOLS/releases)
 
 
-[Download](https://github.com/NLSDME/WINTOOLS/releases/download/update1.8/WinTool.exe)
+[Download](https://github.com/NLSDME/WINTOOLS/releases/download/update1.9/WinTool.exe)
